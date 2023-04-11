@@ -141,7 +141,6 @@ public class Input extends GridPanel {
      */
     @Override
     public void accept(Event e) {
-        // вызываем обработчик предка
         super.accept(e);
         // если вводится текст
         if (e instanceof EventTextInput ee) {
